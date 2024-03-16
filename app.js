@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 const client = new Anthropic({
-    apiKey: "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", // defaults to process.env["ANTHROPIC_API_KEY"]
+    apiKey: "", // defaults to process.env["ANTHROPIC_API_KEY"]
   });
   
 async function main() {
